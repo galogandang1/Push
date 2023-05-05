@@ -14,12 +14,12 @@ Platform:
   android arm64
 
 Trace: 
-  Error: EACCES: permission denied, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/Alphabot-Md/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/Alphabot-Md/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
 
 npm manifest: 
   {
     "name": "Alphabot-Md",
-    "version": "17.0.8",
+    "version": "17.0.9",
     "description": "Alphabot Md, Only update in YouTube ZEEONE OFC",
     "main": "zeeone.js",
     "license": "MIT",
@@ -36,7 +36,7 @@ npm manifest:
     "author": "ZeeoneOfc",
     "license": "MIT",
     "dependencies": {
-      "@adiwajshing/baileys": "npm:baileys-md@^5.0.5",
+      "@adiwajshing/baileys": "npm:baileys@^6.0.9",
       "@adiwajshing/keyed-db": "^0.2.4",
       "@bochilteam/scraper": "^2.0.0",
       "@hapi/boom": "^9.1.3",
@@ -80,7 +80,7 @@ npm manifest:
       "pdfkit": "^0.13.0",
       "perf_hooks": "0.0.1",
       "pino": "^7.2.0",
-      "qrcode": "^1.5.1",
+      "qrcode": "npm:code-qr@^1.5.1",
       "qrcode-terminal": "^0.12.0",
       "request": "^2.88.2",
       "scrape-primbon": "^1.1.0",
